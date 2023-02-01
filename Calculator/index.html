@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+  </head>
+  <body>
+  <h1>Calculator</h1>
+  <!-- post method is for sending the data (three lines under) somewhere -->
+  <form action ="/" method="post">
+    <!-- We don't want to send that location to the index.html
+    BUT we want to send it to the server aka the home-route location
+    If an action doesn't exist it will send it to the current page that it's on..
+    which is the same as leaving it as action ="/" -->
+    <input type="text" name="num1" placeholder="First Number"> <!--"name" identifies the data that's put in this as an input -->
+    <input type="text" name="num2" placeholder="Second Number">
+    <button type="submit" name="submit">Calculate</button>
+  </form>
+
+  </body>
+</html>

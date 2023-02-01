@@ -1,0 +1,90 @@
+cd Desktop/
+mkdir Story
+cd Story/
+
+git init
+
+git status //shows us which files inside our working area we want to commit
+//will show chapter1.txt under untracked files
+
+git add chapter1.txt
+
+git status //now it is added.
+
+git commit -m "Complete Chapter 1" //makes a commit, -m makes a message to hint what we chnaged
+//In present tense, im doing it now, submitting changes now
+
+git log //to see which commits u made
+
+
+------ No we do remote transfer
+
+git remote add origin https://github.com/MicroNinja360/Story.git
+// we need to the remote to transfer gits to remote repo, create it
+// origin is the name of the remote by convention
+//we add the url of the story folder we made on github
+
+git push -u origin master	//now we need to push the local repo to remote repo
+
+origin: name of remote
+master: is the name of the branch
+
+
+------------------------
+ls -a //shows hidden files
+
+touch .gitignore //creates a hidden file
+
+open .gitignore //opens it, doesnt for me for some reason
+
+git init // shows what is stored in repo
+
+git add . //
+
+git status //shows the files not yet committed
+
+git rm --cached -r .	//removes files from the staging area, undo last "git add ."
+
+git status // shows they arent working anymore
+
+//now we use .gitignore to specify files we want to ignore certain files
+
+//after editing the .gitignore file ...
+
+git add . //will add everything except those mentioned in the .ignore file
+
+-------branching and merging
+
+git branch //shows existing branches
+
+git branch alien-plot // creates with name alien-plot
+
+git checkout alien-plot // * astricks shows which plot we are on, we chose alien-plot
+
+git add . 
+
+git log
+
+git branch master// to show where the astrick is (where we are)
+
+touch chapter4.txt
+
+git add .
+
+git commit -m "add chapter 4"
+
+git log
+
+git merge alien-plot //we are merging alien-plot to master
+
+git push origin master //now it is online
+
+
+
+
+
+
+
+
+
+

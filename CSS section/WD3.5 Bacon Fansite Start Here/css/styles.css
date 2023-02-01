@@ -1,0 +1,38 @@
+/***********************TAG SELECTORS***************/
+h1{
+
+  /* - elements are in alphabetical order
+    - (who , what, how)  */
+color: red;
+font-size: 100px;
+
+}
+
+
+img:hover{
+  background-color: gold;
+}
+
+/**********************CLASS SELECTORS**************/
+
+.bacon {
+  background-color: green
+}
+
+.broccoli{
+  background-color: red;
+}
+
+.circular{
+  border-radius: 40%;
+}
+
+
+/********************ID SELECTORS*******************/
+/* use id only if we have one prticular example on a page*/
+/* each html element can have more than one class but only one id*/
+#heading{
+
+color: blue;
+
+}

@@ -1,0 +1,19 @@
+<%- include("partials/header"); -%>
+
+<h1>Home</h1>
+<p><%=contentOfHome%></p>
+
+<%postArray.forEach(function(posts){ %>
+    <h1><%=posts.title%></h1>
+
+    <% if(posts.content.length>100){ %> 
+        <% let maxString = posts.content.substring(0,100); %>
+    <p><%=maxString + " ..." %><a href="posts/<%=posts.title%>"> Read More</a></p>
+<% }else{ %> 
+            <p><%=posts.content%></p>
+<%  }%> 
+<%});%>
+
+
+
+<%- include("partials/footer"); -%>

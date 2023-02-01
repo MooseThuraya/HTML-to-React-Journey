@@ -1,0 +1,243 @@
+body{
+  /*
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  can use only margin if wanting all sides
+  */
+text-align: center;
+margin: 0;
+font-family:  "Merriweather" ,sans-serif;
+color: #40514e;
+font-size: 1.2rem;
+}
+
+.im-Moose{
+  /*100% = 16px = 1em*/
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem; /*rem igoneres any parent settings so no interference hapens*/
+  color: black;
+}
+
+h1{
+font-family: "Sacramento", sans-serif;
+  margin-top: 0;
+  width: 40%;
+  margin: 0 auto;
+
+  /*margin: 0 auto 0 auto; top,right,bottom,left clockwise*/
+  /*if only three are mentioned its top, left/right, bottom*/
+}
+
+h2{
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #11999E;
+}
+
+h3{
+  font-family: "Montserrat", sans-serif;
+  color: #11999E;
+}
+
+
+.top-container{
+
+  /*background: rgb(228,249,245);
+  background: radial-gradient(circle, rgba(228,249,245,1) 0%, rgba(44,197,199,1) 100%);*/
+
+  background: rgb(219,255,248);
+  background: radial-gradient(circle, rgba(219,255,248,1) 0%, rgba(44,197,199,1) 100%);
+  position: relative;
+  margin: 0;
+  padding-top: 150px;
+}
+
+.skill-row{
+width: 50%;
+margin: 50px auto 100px auto;
+text-align: left;
+line-height: 2;
+}
+
+
+.middle-container{
+
+}
+
+.bottom-container{
+background-color: #66BFBF;
+margin-top: 70px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.contact-me{
+  margin-top: 70px;
+  margin-bottom: 80px;
+}
+
+.pro{
+  text-decoration: underline;
+}
+
+.top-cloud{
+  position: absolute;
+  width: 180px;
+  top:80px;
+  right: 390px;
+}
+.bottom-cloud{
+  position: absolute;
+  width: 180px;
+  left: 420px;
+  bottom: 300px;
+
+  /* to reflect an image us -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);*/
+}
+
+.mountain{
+  position: relative;
+  top:4.5px;
+
+}
+
+.moose-img{
+border-radius: 100%;
+}
+
+.skills-img{
+border-radius: 100%;
+height: auto;
+width: 25%;
+float: left;
+margin-right: 30px;
+margin-bottom: 30px;
+position: relative;
+right: 40px;
+}
+
+.chillies-img{
+border-radius: 100%;
+height: auto;
+width: 30%;
+float: left;
+margin-right: 30px;
+position: relative;
+right: 30px;
+
+}
+.gym-img{
+  border-radius: 100%;
+  height: auto;
+  width: 35%;
+  clear: left;
+  margin-left: 600px;
+  margin-bottom: 0;
+
+}
+
+.bodybuilding-container{
+  position: relative;
+  bottom: 200px;
+  left: 100px;
+
+}
+
+.Professional-BodybuildingH3{
+  position: relative;
+  bottom: 200px;
+  left: 200px;
+}
+
+.pro-grammer{
+  color: black;
+}
+
+.Professional-Gamer-description{
+  position: relative;
+  top: 20px;
+}
+.Professional-bodybuilding-description{
+  clear: right;
+  position: relative;
+  left: 100px;
+
+}
+.Professional-chillies-description{
+  clear; left; /*use this to wrap text around an image*/
+  position: relative;
+  top: 30px;
+}
+.Spicy-Eating-Champion{
+  position: relative;
+  top: 20px;
+}
+.Professional-Gamer-header{
+
+  position: relative;
+  top: 10px;
+}
+
+.skill-row-chilli{
+  position: relative;
+  bottom: 120px;
+  right: 30px;
+}
+
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+  text-decoration: none;
+}
+
+
+a{
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+
+}
+
+a:hover{
+  color: #eaf6f6;
+}
+
+hr {
+  width: 7%;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  color: grey;
+}
+
+.copyright{
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
